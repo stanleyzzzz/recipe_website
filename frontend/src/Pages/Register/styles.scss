@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signupBox {
+    width: 400px;
+    height: 720px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.signupButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signupButtons button {
+    width: 150px;
+}

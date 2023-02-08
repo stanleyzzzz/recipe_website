@@ -1,0 +1,67 @@
+.recipesBox {
+    margin-top: 30px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    height: 80vh;
+    &Card {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        margin: 30px 10px;
+        padding: 30px;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 10px;
+        background: grey;
+        color: white;
+        font-size: 1.2rem;
+        @media screen and (max-width: 1426px) {
+            width: 100%;
+        }
+        img {
+            width: 600px;
+        }
+        .options {
+            display: flex;
+            align-items: middle;
+            gap: 50px;
+        }
+        .deleteIcon {
+            cursor: pointer;
+            color: #fc5f5f;
+            transition: 0.2s ease-in-out;
+            &:hover {
+                color: red;
+            }
+        }
+        input,
+        textarea {
+            font-size: 1em;
+            padding: 10px 20px;
+            width: 80%;
+        }
+        textarea {
+            height: 200px;
+            width: 550px;
+            resize: none;
+        }
+    }
+    .isBanned {
+        background: #913e3e;
+    }
+}
+
+.recipesBoxImg {
+    background-repeat: no-repeat;
+    background-size: 400px;
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+}
+
+.recipesBoxCard {
+    width: 100vh;
+}

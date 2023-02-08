@@ -1,0 +1,74 @@
+.generalInformation {
+    text-align: center;
+}
+
+.boldTxt {
+    font-weight: bold;
+}
+
+.lightTxt {
+    font-weight: 300;
+}
+
+.shadowTxt {
+    font-size: 40px;
+    text-shadow: 3px 3px rgb(234, 234, 234);
+    font-weight: 900;
+}
+
+.detailsBox {
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.profileSettingsWrapper {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.profileInput {
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: light;
+}
+
+.errorInput {
+    border: 1px solid red;
+}
+
+.saveBtn {
+    float: right;
+}
+
+.editBtn {
+    cursor: pointer;
+    float: right;
+}
+
+.dashboardBtn {
+    text-align: center;
+}
+
+.profileBtns {
+    display: flex;
+    flex-direction: justify;
+    width: 350px;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+.profileBtns button {
+    height: 35px;
+    justify-self: center;
+}
+
+.profileBtns button:nth-child(1) {
+    justify-self: start;
+}

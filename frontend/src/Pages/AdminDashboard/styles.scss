@@ -1,0 +1,41 @@
+.adminDashboardWrapper {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  .shadowTxt {
+    font-size: 40px;
+    text-shadow: 3px 3px rgb(234, 234, 234);
+    font-weight: 900;
+  }
+
+  .usersBox {
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 10px;
+
+    &Card {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      margin: 30px;
+      padding: 30px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      background: #3f933f;
+      color: white;
+
+      .toggleIcon {
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+    }
+
+    .isBanned {
+      background: #913e3e;
+    }
+  }
+}
